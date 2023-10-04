@@ -1,0 +1,30 @@
+img{
+    width: 300px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: right;
+}
+
+.clear-fix{
+    /* display: table;
+    content: "";
+    clear: both; */
+    display: flow-root;
+}
+
+.contents{
+    display: contents
+}
+
+img[alt="logo"] {
+    width: 50px;
+}

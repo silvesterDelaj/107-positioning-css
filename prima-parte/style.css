@@ -51,3 +51,10 @@ header{
     top: 0px;
     width: 100%;
 }
+
+.special{
+    background-color: grey;
+    height: 10%;
+    overflow: auto;
+}
+
